@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container button{
+    padding: 20px 50px;
+    border: none;
+    margin:20px 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:orangered;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    transition: all .3s;
+    cursor: pointer;
+   
+    border: 2px solid orangered;
+}
+.container button:hover{
+    background-color: orangered;
+    color: white;
+    border: 2px solid transparent;
+    
+}

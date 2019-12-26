@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.nav-bar{
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.link{
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color:white;
+  background-color: lightsalmon;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.active{
+  background-color: lightseagreen;
+  font-size: 1.2rem;
+}
