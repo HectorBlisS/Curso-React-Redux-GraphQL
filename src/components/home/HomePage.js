@@ -24,7 +24,7 @@ export default function Home() {
     function renderCharacter() {
         let char = chars[0]
         return (
-            <Card leftClick={nextChar} {...char} />
+            <Card leftClick={nextChar} rightClick={nextChar} {...char} />
         )
     }
 
