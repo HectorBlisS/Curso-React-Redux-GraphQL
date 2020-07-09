@@ -3,7 +3,7 @@ import Card from '../card/Card'
 import styles from './home.module.css'
 import axios from 'axios'
 
-let URL = "https://rickandmortyapi.com/api"
+let URL = "https://rickandmortyapi.com/api";
 
 export default function Home() {
 
