@@ -31,6 +31,10 @@ export default function reducer(state = initialData, action){
 // dispatch y getState son parte del store
 // dispatch ejecuta las acciones 
 // getState entrega el store
+
+export let removeCharacterAction = () => (dispatch, getState) => {}
+
+// esta acción trae a los personajes
 export const getCharactersActions = () => (dispatch, getState) => {
   dispatch({
     type: GET_CHARACTERS,
